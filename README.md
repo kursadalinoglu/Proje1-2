@@ -3,9 +3,9 @@ Patika.dev projesi kapsamında yapmış olduğum 2 Proje
 
 ## Proje 1 - Verilen Listeyi Düz bir listeye dönüştürüyoruz.
 
-flatten_list = []
+ flatten_list = []
 
-def flatten(l):
+ def flatten(l):
 
     for i in l:
     
@@ -25,7 +25,7 @@ def flatten(l):
     
 ## Proje 2 - Verilen listenin elemanlarını tersine çeviriyoruz.
 
-def reverser(x):
+ def reverser(x):
 
     x.reverse()
     
@@ -35,8 +35,8 @@ def reverser(x):
         
             reverser(i)
             
-exp_list=[[1, 2], [3, 4], [5, 6, 7]]
+ exp_list=[[1, 2], [3, 4], [5, 6, 7]]
 
-reverser(exp_list)
+ reverser(exp_list)
 
-print(exp_list)
+ print(exp_list)
