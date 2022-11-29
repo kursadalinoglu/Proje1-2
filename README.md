@@ -8,16 +8,16 @@ Patika.dev projesi kapsamında yapmış olduğum 2 Proje
 
     def flatten(l):
 
-    for i in l:
+        for i in l:
     
-        if type(i) == list:
+            if type(i) == list:
         
-            flatten(i)
-        else:
+                flatten(i)
+            else:
         
-            flatten_list.append(i)
+                flatten_list.append(i)
             
-    return flatten_List
+        return flatten_List
     
     l = [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
     
@@ -28,13 +28,13 @@ Patika.dev projesi kapsamında yapmış olduğum 2 Proje
 
     def reverser(x):
 
-    x.reverse()
+        x.reverse()
     
-    for i in x:
+        for i in x:
     
-        if type(i) == list:
+            if type(i) == list:
         
-            reverser(i)
+                reverser(i)
             
     exp_list=[[1, 2], [3, 4], [5, 6, 7]]
 
